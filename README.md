@@ -1,5 +1,5 @@
 
-# Introduction to Full Adder Module
+# Full Adder Module
 
 In digital electronics and Integrated Circuit (IC) design, the **Full Adder** is one of the most fundamental and essential logic blocks. While a Half Adder is the first step, the Full Adder serves as the "heart" of more complex computational systems.
 
