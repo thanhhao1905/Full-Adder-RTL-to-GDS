@@ -35,8 +35,6 @@ The structure of a Full Adder is typically built using the following components:
 
 <img width="1903" height="844" alt="image" src="https://github.com/user-attachments/assets/145d8338-7583-4101-a359-acf1568528fe" />
 
-<img width="1908" height="644" alt="image" src="https://github.com/user-attachments/assets/00dc48d3-2bc1-4cec-a08c-73ea22428b0f" />
-
 
 
 ## 4. Role of the Full Adder
