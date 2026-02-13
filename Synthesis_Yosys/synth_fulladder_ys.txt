@@ -1,0 +1,19 @@
+# synth_fulladder.ys
+
+read_verilog half_adder.v
+read_verilog full_adder.v
+
+read_liberty -lib ~/openlane/pdks/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+synth -top full_adder
+
+dfflibmap -liberty ~/openlane/pdks/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+abc -liberty ~/openlane/pdks/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+
+clean
+
+
+write_verilog full_adder_synth.v
+stat
