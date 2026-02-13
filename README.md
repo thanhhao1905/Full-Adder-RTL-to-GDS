@@ -18,6 +18,9 @@ The structure of a Full Adder is typically built using the following components:
 2. The second Half Adder adds this temporary sum to the input carry bit `c` (Cin), producing the final **Sum**.
 3. The final **Carry-out** is determined by an `OR` logic operation between the carry signals from both Half Adders. If either stage generates a carry, the final output will result in a carry.
 
+<img width="1920" height="918" alt="image" src="https://github.com/user-attachments/assets/8c4211be-6405-48e5-92d8-483acf9fa265" />
+
+<img width="1920" height="919" alt="image" src="https://github.com/user-attachments/assets/fd8a5f63-bbb0-4d5e-ab15-79adcea0e187" />
 
 
 ## 3. Signal Components
@@ -28,9 +31,12 @@ The structure of a Full Adder is typically built using the following components:
 * **Output `sum`:** The result of the addition for the current bit position.
 * **Output `carry` (Cout):** The carry bit generated to be passed to the next higher-order bit position.
 
-<img width="1920" height="918" alt="image" src="https://github.com/user-attachments/assets/8c4211be-6405-48e5-92d8-483acf9fa265" />
+<img width="1920" height="918" alt="image" src="https://github.com/user-attachments/assets/eb8bdc42-1b9a-47e9-87c8-43e52369d8f2" />
 
-<img width="1920" height="919" alt="image" src="https://github.com/user-attachments/assets/fd8a5f63-bbb0-4d5e-ab15-79adcea0e187" />
+<img width="1903" height="844" alt="image" src="https://github.com/user-attachments/assets/145d8338-7583-4101-a359-acf1568528fe" />
+
+<img width="1908" height="644" alt="image" src="https://github.com/user-attachments/assets/00dc48d3-2bc1-4cec-a08c-73ea22428b0f" />
+
 
 
 ## 4. Role of the Full Adder
