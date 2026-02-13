@@ -28,14 +28,8 @@ The structure of a Full Adder is typically built using the following components:
 * **Output `sum`:** The result of the addition for the current bit position.
 * **Output `carry` (Cout):** The carry bit generated to be passed to the next higher-order bit position.
 
-## 4. Logical Equations (Boolean)
 
-Mathematically, the outputs of a Full Adder are represented by the following logic expressions:
-
-* **Sum:** 
-* **Carry-out:** 
-
-## 5. Role of the Full Adder
+## 4. Role of the Full Adder
 
 The Full Adder plays an irreplaceable role in modern computer architecture:
 
