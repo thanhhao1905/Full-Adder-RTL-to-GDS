@@ -1,9 +1,13 @@
+
+# Introduction to Full Adder Module
+
 In digital electronics and Integrated Circuit (IC) design, the **Full Adder** is one of the most fundamental and essential logic blocks. While a Half Adder is the first step, the Full Adder serves as the "heart" of more complex computational systems.
 
-## 1. Definition 
+## 1. Definition
+
 A **Full Adder** is a combinational logic circuit that performs the addition of three binary digits (bits). Unlike a Half Adder, which can only add two bits, a Full Adder has the ability to process an additional **Carry-in** bit from a previous stage. This capability allows multiple Full Adders to be cascaded together to perform arithmetic operations on large binary numbers.
 
-## 2. Structure and Operating Principle 
+## 2. Structure and Operating Principle
 
 The structure of a Full Adder is typically built using the following components:
 
