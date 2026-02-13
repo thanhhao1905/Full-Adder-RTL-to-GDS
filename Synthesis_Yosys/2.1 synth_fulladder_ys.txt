@@ -17,3 +17,4 @@ clean
 
 write_verilog full_adder_synth.v
 stat
+
