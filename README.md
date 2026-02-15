@@ -1,5 +1,5 @@
 
-# Full Adder Module
+# Full Adder: RTL Design, Design Verification, and Physical Implementation – A Complete ASIC Flow from Verilog to GDSII #
 
 In digital electronics and Integrated Circuit (IC) design, the **Full Adder** is one of the most fundamental and essential logic blocks. While a Half Adder is the first step, the Full Adder serves as the "heart" of more complex computational systems.
 
